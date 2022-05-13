@@ -18,7 +18,7 @@ def main(argv):
     args = cli(argv)
 
     audio_path = args.audio
-    picture_path = args.imaged
+    picture_path = args.image
     audio = MP3(audio_path, ID3=ID3)
     # adding ID3 tag if it is not present
     try:
